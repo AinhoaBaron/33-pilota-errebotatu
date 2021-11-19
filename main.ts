@@ -1,11 +1,11 @@
 input.onButtonPressed(Button.A, function () {
-    pausa = 200
+    pausa = 700
 })
 input.onButtonPressed(Button.AB, function () {
     game.pause()
 })
 input.onButtonPressed(Button.B, function () {
-    pausa = 700
+    pausa = 200
 })
 input.onLogoEvent(TouchButtonEvent.Touched, function () {
     game.resume()
